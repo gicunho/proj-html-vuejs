@@ -16,7 +16,7 @@ header {
   background-color: #e9e6e3;
   color: #3f3a64;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
 }
 header li {
   display: inline-block;
@@ -62,4 +62,48 @@ header #search input {
 }
 header #search i {
   color: #20ad96;
+}
+header .jumbo {
+  position: relative;
+  z-index: 1;
+}
+header .jumbo #jumbo_text {
+  width: 35%;
+  padding-top: 100px;
+}
+header .jumbo #jumbo_text h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+header .jumbo #jumbo_text p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #b6b8d1;
+  padding: 30px 0;
+}
+header .jumbo #jumbo_text a {
+  font-size: 17px;
+  color: white;
+  font-weight: 500;
+  padding: 20px 50px;
+  border-radius: 5px;
+  background-color: #20ad96;
+}
+header .jumbo #jumbo_text a:hover {
+  background-color: red;
+  text-decoration: none;
+}
+header .jumbo #hero_img {
+  width: 45%;
+}
+header .jumbo #hero_img img {
+  width: 100%;
+}
+header #jumbo_overlay img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 600px;
+  transform: rotateX(180deg);
+  z-index: 0;
 }

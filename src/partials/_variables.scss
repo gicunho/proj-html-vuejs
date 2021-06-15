@@ -1,3 +1,25 @@
 $header_bg: #e9e6e3;
-$brand_text_color: #3f3a64;
+$brand_text_purple: #3f3a64;
+$brand_text_blue_haze: #b6b8d1;
 $brand_text_green: #20ad96;
+
+@mixin button_sm {
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    padding: 20px 50px;
+    border-radius: 5px;
+    &:hover {
+        background-color: red;
+        text-decoration: none;
+    }
+}
+@mixin section {
+    padding: 30px 0;
+    h3 {
+        text-transform: uppercase;
+        color: $brand_text_purple;
+        font-size: 15px;
+        font-weight: 300;
+    }
+}

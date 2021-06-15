@@ -19,8 +19,9 @@
   <body>
       <div id="root">
         <!-- Site Header -->
-        <header>
+        <header class="position-relative">
             <div class="my-container py-3">
+                <!-- Navbar -->
                 <nav class="d-flex justify-content-between align-items-center">
                     <a class="" href="#">
                         <img src="./dist/img/dark-logo.png" width="200" alt="">
@@ -40,11 +41,33 @@
                       </div>
                     </div>
                 </nav>
-    
-                <div class="">
-    
-                </div>
-            </div>         
+                <!-- /Navbar -->
+
+                <!-- Jumbotron -->
+                <div class="jumbo d-flex justify-content-between py-5">
+                  <!-- Jumbo Text -->
+                  <div id="jumbo_text">
+                    <h1>Complete Your Dreams in JavaS Programming</h1>
+                    <p>Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
+                    <a href="#">
+                      <i class="fa fa-download px-3" aria-hidden="true"></i>
+                      Download free E-book
+                    </a>
+                  </div>
+                  <!-- /Jumbo Text -->
+
+                  <!-- Hero Image -->
+                  <div id="hero_img" class="text-right">
+                    <img src="./dist/img/home-5-hero-image.png" alt="ragazzo scrive codice pc">
+                  </div>
+                  <!-- /Hero Image -->
+
+                </div>  
+                <!-- /Jumbotron -->
+            </div>
+            <div id="jumbo_overlay">
+              <img src="./dist/img/jumbo-overlay.svg" alt="sfondo grigio scuro">
+            </div>           
         </header>
     <!-- /Site Header -->
 

@@ -1,15 +1,16 @@
 header {
     background-color: $header_bg;
-    color: $brand_text_color;
+    //background-image: url('/dist/images/jumbo-overlay.svg');
+    color: $brand_text_purple;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     li{
         display: inline-block;
         padding-left: 50px;
     }
     a {
         text-decoration: none;
-        color: $brand_text_color;
+        color: $brand_text_purple;
     }
     #shopping_cart {
         padding: 0 10px;
@@ -34,7 +35,7 @@ header {
         margin: 30px;
         font-size: 20px;
         padding: 1px;
-        border: 3px solid $brand_text_color;
+        border: 3px solid $brand_text_purple;
         border-radius: 50%;
     }
     #search {
@@ -49,5 +50,45 @@ header {
             color: $brand_text_green;
         }
     }
-   
+
+    .jumbo {
+        position: relative;
+        z-index: 1;
+        #jumbo_text{
+            width: 35%;
+            padding-top: 100px;
+            h1{
+                font-size: 4rem;
+                font-weight: 800;
+            }
+            p{
+                font-size: 1.5rem;
+                font-weight: 400;
+                color: $brand_text_blue_haze;
+                padding: 30px 0;
+            }
+            a{
+                @include button_sm;
+                background-color: $brand_text_green;
+            }
+        }
+
+        #hero_img{
+            width: 45%;
+            img {
+                width: 100%;
+            }
+        }
+
+        
+    }
+   #jumbo_overlay img{
+       position: absolute;
+       bottom: 0;
+       width: 100%;
+       height: 600px;
+       transform: rotateX(180deg);
+       z-index: 0;
+
+   }
 }
