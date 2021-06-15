@@ -73,7 +73,20 @@
 
     <!-- Site Main Content -->
         <main>
-
+          <!-- Intro -->
+          <section id="intro" class="my-container">
+            <h3>start learning coding languages</h3>
+            <h2>Build Your Dream <span>TODAY</span></h2>
+            <div class="d-flex">
+              <div v-for="info in introInfos" class="info_card px-2">
+                <img :src="info.img" alt="">
+                <h4>{{info.title}}</h4>
+                <p>{{info.text}}</p>
+                <a href="#">Start now <i class="fa fa-arrow-right pl-2" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </section>
+          <!-- /Intro -->
         </main>
     <!-- Site Main Content -->
 

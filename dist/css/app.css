@@ -107,3 +107,40 @@ header #jumbo_overlay img {
   transform: rotateX(180deg);
   z-index: 0;
 }
+
+#intro {
+  padding: 50px 0;
+  text-align: center;
+}
+#intro h2 {
+  color: #3f3a64;
+  font-size: 50px;
+  font-weight: 700;
+}
+#intro h2 span {
+  color: #20ad96;
+  font-weight: 400;
+}
+#intro h3 {
+  text-transform: uppercase;
+  color: #3f3a64;
+  font-size: 18px;
+  font-weight: 400;
+}
+#intro .info_card {
+  padding-top: 100px;
+}
+#intro .info_card img {
+  height: 250px;
+  padding-bottom: 20px;
+}
+#intro .info_card p {
+  color: #959999;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 30px 0;
+}
+#intro .info_card a {
+  color: #9693aa;
+  font-weight: 600;
+}

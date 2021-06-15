@@ -2,6 +2,7 @@ $header_bg: #e9e6e3;
 $brand_text_purple: #3f3a64;
 $brand_text_blue_haze: #b6b8d1;
 $brand_text_green: #20ad96;
+$brand_text_gray: #959999;
 
 @mixin button_sm {
     font-size: 17px;
@@ -15,11 +16,21 @@ $brand_text_green: #20ad96;
     }
 }
 @mixin section {
-    padding: 30px 0;
+    padding: 50px 0;
+    h2{
+        color: $brand_text_purple;
+        font-size: 50px;
+        font-weight: 700;
+        span {
+            color: $brand_text_green;
+            font-weight: 400;
+
+        }
+    }
     h3 {
         text-transform: uppercase;
         color: $brand_text_purple;
-        font-size: 15px;
-        font-weight: 300;
+        font-size: 18px;
+        font-weight: 400;
     }
 }
