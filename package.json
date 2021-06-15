@@ -23,9 +23,12 @@
   "homepage": "https://github.com/gicunho/proj-html-vuejs#readme",
   "devDependencies": {
     "laravel-mix": "^6.0.19",
-    "postcss": "^8.1.14",
+    "postcss": "^8.3.4",
     "resolve-url-loader": "^3.1.2",
     "sass": "^1.35.0",
     "sass-loader": "^11.0.1"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
   }
 }
