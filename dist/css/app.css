@@ -213,3 +213,34 @@ header #jumbo_overlay img {
   background-color: white;
   color: #20ad96;
 }
+
+/* Company Numbers Section */
+#numbers {
+  padding: 50px 0;
+  background-color: #faf8f6;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+#numbers h2 {
+  color: #3f3a64;
+  font-size: 60px;
+  font-weight: 700;
+}
+#numbers h2 span {
+  color: #20ad96;
+  font-weight: 400;
+}
+#numbers h3 {
+  text-transform: uppercase;
+  color: #3f3a64;
+  font-size: 18px;
+  font-weight: 400;
+}
+#numbers .numb {
+  color: #20ad96;
+  font-size: 60px;
+  font-weight: 800;
+}
+#numbers h3 {
+  font-size: 20px;
+}
