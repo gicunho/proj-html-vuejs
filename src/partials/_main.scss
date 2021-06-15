@@ -1,3 +1,4 @@
+/* Intro Section */
 #intro{
     @include section;
     text-align: center;
@@ -17,5 +18,59 @@
             color: #9693aa;
             font-weight: 600;
         }
+    }
+}
+
+/* Career Section */
+#career {
+    @include section;
+    &>div {
+        width: 50%;
+    }
+    img {
+        width: 60%;
+    }
+    #underlay_purple {
+        position: absolute;
+        top: 120px;
+        left: -170px;
+        z-index: -1;
+    }
+    .career_features {
+        box-shadow: rgba(41, 46, 51, 0.2) 0px 8px 24px 8px;
+        color: #696969;
+        border-radius: 5px;
+        margin-top: 40px;        
+        h4{
+            padding: 20px;
+            font-size: 25px;
+            font-weight: 600;
+            position: relative;
+        }
+        i {
+            position: absolute;
+            right: 20px;
+            background-color: $brand_text_gray;
+            border-radius: 50%;
+            font-size: 15px;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        p{
+            padding: 30px;
+            font-size: 20px;
+        }
+    }
+    .feature_active {
+            border-radius: $bordi_stondati_sopra;
+            background-color: $brand_text_green;
+            color: white;
+            filter:brightness(1.15);
+            i {
+                background-color: white;
+                color: $brand_text_green;
+            }  
+
     }
 }

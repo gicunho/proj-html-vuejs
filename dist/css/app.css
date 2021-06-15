@@ -4,7 +4,7 @@
 }
 
 .my-container {
-  width: 70%;
+  width: 65%;
   margin: auto;
 }
 
@@ -103,18 +103,19 @@ header #jumbo_overlay img {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 600px;
+  height: 550px;
   transform: rotateX(180deg);
   z-index: 0;
 }
 
+/* Intro Section */
 #intro {
   padding: 50px 0;
   text-align: center;
 }
 #intro h2 {
   color: #3f3a64;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
 }
 #intro h2 span {
@@ -143,4 +144,72 @@ header #jumbo_overlay img {
 #intro .info_card a {
   color: #9693aa;
   font-weight: 600;
+}
+
+/* Career Section */
+#career {
+  padding: 50px 0;
+}
+#career h2 {
+  color: #3f3a64;
+  font-size: 60px;
+  font-weight: 700;
+}
+#career h2 span {
+  color: #20ad96;
+  font-weight: 400;
+}
+#career h3 {
+  text-transform: uppercase;
+  color: #3f3a64;
+  font-size: 18px;
+  font-weight: 400;
+}
+#career > div {
+  width: 50%;
+}
+#career img {
+  width: 60%;
+}
+#career #underlay_purple {
+  position: absolute;
+  top: 120px;
+  left: -170px;
+  z-index: -1;
+}
+#career .career_features {
+  box-shadow: rgba(41, 46, 51, 0.2) 0px 8px 24px 8px;
+  color: #696969;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+#career .career_features h4 {
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+}
+#career .career_features i {
+  position: absolute;
+  right: 20px;
+  background-color: #959999;
+  border-radius: 50%;
+  font-size: 15px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+#career .career_features p {
+  padding: 30px;
+  font-size: 20px;
+}
+#career .feature_active {
+  border-radius: 5px 5px 0 0;
+  background-color: #20ad96;
+  color: white;
+  filter: brightness(1.15);
+}
+#career .feature_active i {
+  background-color: white;
+  color: #20ad96;
 }
