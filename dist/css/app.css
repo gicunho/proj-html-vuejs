@@ -448,3 +448,67 @@ header #jumbo_overlay img {
   background-color: red;
   text-decoration: none;
 }
+#mobile_app #mobile_text p {
+  padding-bottom: 30px;
+}
+
+/* Events */
+#events {
+  padding: 100px 0;
+}
+#events h2 {
+  color: #3f3a64;
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding: 30px 0;
+}
+#events h2 span {
+  color: #20ad96;
+  font-weight: 400;
+}
+#events h3 {
+  text-transform: uppercase;
+  color: #3f3a64;
+  font-size: 18px;
+  font-weight: 400;
+}
+#events .event {
+  background-color: #f8f8f8;
+  width: 49%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+#events .event h4 {
+  color: black;
+  font-size: 22px;
+  padding: 30px 0;
+  padding: 15px 0;
+}
+#events .event .event_place {
+  color: #959999;
+}
+#events .event .event_date {
+  font-size: 45px;
+  color: #20ad96;
+  line-height: 40px;
+}
+#events .event .event_month {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+#events .event a {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #20ad96;
+  padding: 5px 30px;
+  min-width: 150px;
+}
+#events .event a:hover {
+  background-color: red;
+  text-decoration: none;
+}

@@ -209,6 +209,26 @@
           </section>
           <!-- /Mobile App -->
 
+          <!-- Events -->
+          <section id="events" class="my-container">
+            <h3 class="text-center">get in contact now</h3>
+            <h2 class="text-center">Upcoming <span>Events</span></h2>
+            <div class="d-flex flex-wrap justify-content-between">
+              <div class="event d-flex justify-content-between" v-for="event in events">
+                <div class="w-75">
+                  <div class="event_place"><i class="fas fa-map-marker-alt pr-3"></i>{{event.place}}</div>
+                  <h4 class="event_name">{{event.name}}</h4>
+                </div>
+                <div class="text-center">
+                  <div class="event_date">{{event.date}}</div>
+                  <div class="event_month">{{event.month}}</div>
+                  <a href="#">Get ticket</a>
+                </div>
+              </div>
+            </div>
+
+          </section>
+          <!-- /Events -->
         </main>
     <!-- Site Main Content -->
 

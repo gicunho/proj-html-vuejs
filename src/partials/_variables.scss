@@ -4,6 +4,7 @@ $brand_text_blue_haze: #b6b8d1;
 $brand_text_green: #20ad96;
 $brand_text_gray: #959999;
 $brand_numbers_bg: #faf8f6;
+$brand_events_bg: #f8f8f8;
 $bordi_stondati_sopra: 10px 10px 0 0;
 
 @mixin button_sm {
@@ -50,5 +51,11 @@ $bordi_stondati_sopra: 10px 10px 0 0;
 @mixin underlay {
     position: absolute;
     z-index: -1;
+}
+
+@mixin card_title {
+    color: black;
+    font-size: 22px;
+    padding: 30px 0;
 }
 

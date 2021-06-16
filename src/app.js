@@ -16,6 +16,15 @@ class course {
         this.img = img
     }
 };
+class evento {
+    constructor(name, place, date, month){
+        this.name = name;
+        this.place = place;
+        this.date = date;
+        this.month = month
+    }
+}
+
 const bFields = {
     name: 'Blanche Fields',
     pic: '/dist/img/73ee246daf47502812ccefc84bf02898 (1).jpeg'
@@ -67,6 +76,14 @@ const myapp = new Vue({
             'Change the tutor and make arrangements',
             'Participate in events to join others',
             'Get the desired certificate delivered at house'
+        ],
+        events: [
+            new evento ('Storytelling Workshop', 'Texas, US', 22, 'nov'),
+            new evento ('Painting Art Contest 2020', 'New York, US', 10, 'oct'),
+            new evento ('International Art Fair 2020', 'Hamburg, Germany', 23, 'nov'),
+            new evento ('Street Performance: Call for Artist', 'Illinois, US', 15, 'dec'),
+            new evento ('Consumer Food Safety Education Conference', 'Illinois, US', 22, 'jul'),
+            new evento ('How meditation improve your mental health?', 'Dubai', 12, 'aug'),
         ]
     },
     methods: {
