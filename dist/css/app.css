@@ -4,7 +4,7 @@
 }
 
 .my-container {
-  width: 65%;
+  width: 80%;
   margin: auto;
 }
 
@@ -88,6 +88,7 @@ header .jumbo #jumbo_text a {
   padding: 20px 50px;
   border-radius: 5px;
   background-color: #20ad96;
+  background-color: #20ad96;
 }
 header .jumbo #jumbo_text a:hover {
   background-color: red;
@@ -117,6 +118,7 @@ header #jumbo_overlay img {
   color: #3f3a64;
   font-size: 60px;
   font-weight: 700;
+  padding: 40px 0;
 }
 #intro h2 span {
   color: #20ad96;
@@ -154,6 +156,7 @@ header #jumbo_overlay img {
   color: #3f3a64;
   font-size: 60px;
   font-weight: 700;
+  padding: 40px 0;
 }
 #career h2 span {
   color: #20ad96;
@@ -180,7 +183,7 @@ header #jumbo_overlay img {
 #career .career_features {
   box-shadow: rgba(41, 46, 51, 0.2) 0px 8px 24px 8px;
   color: #696969;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 40px;
 }
 #career .career_features h4 {
@@ -204,7 +207,7 @@ header #jumbo_overlay img {
   font-size: 20px;
 }
 #career .feature_active {
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
   background-color: #20ad96;
   color: white;
   filter: brightness(1.15);
@@ -225,6 +228,7 @@ header #jumbo_overlay img {
   color: #3f3a64;
   font-size: 60px;
   font-weight: 700;
+  padding: 40px 0;
 }
 #numbers h2 span {
   color: #20ad96;
@@ -243,4 +247,79 @@ header #jumbo_overlay img {
 }
 #numbers h3 {
   font-size: 20px;
+}
+
+/* Courses Section */
+#courses {
+  padding: 50px 0;
+  background: linear-gradient(180deg, white 0%, #f6f6f6 100%);
+  border-bottom-left-radius: 50% 120px;
+  border-bottom-right-radius: 50% 120px;
+}
+#courses h2 {
+  color: #3f3a64;
+  font-size: 60px;
+  font-weight: 700;
+  padding: 40px 0;
+}
+#courses h2 span {
+  color: #20ad96;
+  font-weight: 400;
+}
+#courses h3 {
+  text-transform: uppercase;
+  color: #3f3a64;
+  font-size: 18px;
+  font-weight: 400;
+}
+#courses .course {
+  width: 480px;
+  position: relative;
+  color: #959999;
+}
+#courses .course img {
+  border-radius: 10px 10px 0 0;
+}
+#courses .course h4 {
+  color: black;
+  font-size: 30px;
+  padding: 30px 0;
+}
+#courses .course .course_info {
+  padding: 50px;
+  font-size: 20px;
+}
+#courses .course .course_info img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+#courses .course .course_info i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+#courses .course .course_price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 10px 0 10px;
+  background-color: #20ad96;
+  color: white;
+  width: 120px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 0;
+}
+#courses a {
+  font-size: 17px;
+  color: white;
+  font-weight: 500;
+  padding: 20px 50px;
+  border-radius: 5px;
+  background-color: #20ad96;
+}
+#courses a:hover {
+  background-color: red;
+  text-decoration: none;
 }
