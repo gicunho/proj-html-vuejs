@@ -61,6 +61,12 @@ const myapp = new Vue({
             new course ('Academic Listening and Note-taking', '$26.00', bFields.name, bFields.pic, 14, 67, '/dist/img/stock-full-hd-06-480x298.jpg'),
             new course ('Master jQuery in a Short Period of Time', '$39.00', bFields.name, bFields.pic, 6, 51, '/dist/img/course-featured-image-01-480x298.jpg'),
             new course ('Introduction to Javascript for Beginners', '$59.00', bFields.name, bFields.pic, 14, 76, '/dist/img/stock-full-hd-05-480x298.jpg'),
+        ],
+        coursesFeatures: [
+            'Select & customize courses to your preferences',
+            'Change the tutor and make arrangements',
+            'Participate in events to join others',
+            'Get the desired certificate delivered at house'
         ]
     },
     methods: {

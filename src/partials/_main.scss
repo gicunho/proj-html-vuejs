@@ -141,3 +141,66 @@
         @include button_sm;
     }
 }
+
+/* Register */
+#register {
+    @include two_col;
+    @include section;
+    ul {
+        padding-inline-start: 0;
+        color: $brand_text_gray;
+        padding-bottom: 50px;
+        i{
+            color: $brand_text_green;
+            padding-right: 15px;
+        }
+    }
+    a {
+        @include button_sm;
+    }
+    #register_underlay {
+        @include underlay;
+        top: 130px;
+        left: -86px;
+
+    }
+}
+
+/* Mobile App */
+#mobile_app {
+    @include two_col;
+    @include section;
+    #mobile_shape_dots{
+        @include underlay;
+        right: 15px;
+        bottom: 50px;
+    }
+    #mobile_shape_raws {
+        @include underlay;
+        left: -90px;
+        top: 250px;
+    }
+    #mobile_underlay{
+        @include underlay;
+        width: 430px;
+        left: 0;
+        bottom: -40px;
+
+    }
+    #mobile_circle{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 8px solid #ecc5ab;
+        position: absolute;
+        right: 0;
+        top: 50px;
+    }
+    #mobile_text{
+        padding-left: 90px;
+        a{
+            @include button_sm
+        }
+    }
+
+}

@@ -19,7 +19,7 @@ $bordi_stondati_sopra: 10px 10px 0 0;
     }
 }
 @mixin section {
-    padding: 50px 0;
+    padding: 100px 0;
     h2{
         color: $brand_text_purple;
         font-size: 3.5rem;
@@ -39,4 +39,16 @@ $bordi_stondati_sopra: 10px 10px 0 0;
     }
 }
 
+@mixin two_col {
+    display: flex;
+    justify-content: space-between;
+    & > div {
+        width: 50%;
+    }
+}
+
+@mixin underlay {
+    position: absolute;
+    z-index: -1;
+}
 

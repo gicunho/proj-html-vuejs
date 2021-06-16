@@ -112,7 +112,7 @@ header #jumbo_overlay img {
 
 /* Intro Section */
 #intro {
-  padding: 50px 0;
+  padding: 100px 0;
   text-align: center;
 }
 #intro h2 {
@@ -151,7 +151,7 @@ header #jumbo_overlay img {
 
 /* Career Section */
 #career {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 #career h2 {
   color: #3f3a64;
@@ -220,7 +220,7 @@ header #jumbo_overlay img {
 
 /* Company Numbers Section */
 #numbers {
-  padding: 50px 0;
+  padding: 100px 0;
   background-color: #faf8f6;
   margin-top: 100px;
   padding: 50px 0;
@@ -252,7 +252,7 @@ header #jumbo_overlay img {
 
 /* Courses Section */
 #courses {
-  padding: 50px 0;
+  padding: 100px 0;
   background: linear-gradient(180deg, white 0%, #f6f6f6 100%);
   border-bottom-left-radius: 50% 120px;
   border-bottom-right-radius: 50% 120px;
@@ -322,6 +322,129 @@ header #jumbo_overlay img {
   background-color: #20ad96;
 }
 #courses a:hover {
+  background-color: red;
+  text-decoration: none;
+}
+
+/* Register */
+#register {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+#register > div {
+  width: 50%;
+}
+#register h2 {
+  color: #3f3a64;
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding: 30px 0;
+}
+#register h2 span {
+  color: #20ad96;
+  font-weight: 400;
+}
+#register h3 {
+  text-transform: uppercase;
+  color: #3f3a64;
+  font-size: 18px;
+  font-weight: 400;
+}
+#register ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  color: #959999;
+  padding-bottom: 50px;
+}
+#register ul i {
+  color: #20ad96;
+  padding-right: 15px;
+}
+#register a {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #20ad96;
+}
+#register a:hover {
+  background-color: red;
+  text-decoration: none;
+}
+#register #register_underlay {
+  position: absolute;
+  z-index: -1;
+  top: 130px;
+  left: -86px;
+}
+
+/* Mobile App */
+#mobile_app {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+#mobile_app > div {
+  width: 50%;
+}
+#mobile_app h2 {
+  color: #3f3a64;
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding: 30px 0;
+}
+#mobile_app h2 span {
+  color: #20ad96;
+  font-weight: 400;
+}
+#mobile_app h3 {
+  text-transform: uppercase;
+  color: #3f3a64;
+  font-size: 18px;
+  font-weight: 400;
+}
+#mobile_app #mobile_shape_dots {
+  position: absolute;
+  z-index: -1;
+  right: 15px;
+  bottom: 50px;
+}
+#mobile_app #mobile_shape_raws {
+  position: absolute;
+  z-index: -1;
+  left: -90px;
+  top: 250px;
+}
+#mobile_app #mobile_underlay {
+  position: absolute;
+  z-index: -1;
+  width: 430px;
+  left: 0;
+  bottom: -40px;
+}
+#mobile_app #mobile_circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 8px solid #ecc5ab;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+#mobile_app #mobile_text {
+  padding-left: 90px;
+}
+#mobile_app #mobile_text a {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #20ad96;
+}
+#mobile_app #mobile_text a:hover {
   background-color: red;
   text-decoration: none;
 }
