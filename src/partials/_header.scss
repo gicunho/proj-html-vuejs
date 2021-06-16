@@ -2,11 +2,11 @@ header {
     background-color: $header_bg;
     //background-image: url('/dist/images/jumbo-overlay.svg');
     color: $brand_text_purple;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     li{
         display: inline-block;
-        padding-left: 50px;
+        padding-left: 40px;
     }
     a {
         text-decoration: none;
@@ -33,9 +33,10 @@ header {
     }
     nav>div>i {
         margin: 30px;
-        font-size: 20px;
+        font-size: 10px;
         padding: 1px;
         border: 3px solid $brand_text_purple;
+        text-align: center;
         border-radius: 50%;
     }
     #search {
@@ -56,13 +57,13 @@ header {
         z-index: 1;
         #jumbo_text{
             width: 35%;
-            padding-top: 100px;
+            padding-top: 50px;
             h1{
-                font-size: 4rem;
+                font-size: 3.5rem;
                 font-weight: 800;
             }
             p{
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 font-weight: 400;
                 color: $brand_text_blue_haze;
                 padding: 30px 0;
@@ -86,7 +87,7 @@ header {
        position: absolute;
        bottom: 0;
        width: 100%;
-       height: 550px;
+       height: 450px;
        transform: rotateX(180deg);
        z-index: 0;
 

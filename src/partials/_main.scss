@@ -10,7 +10,7 @@
         }
         p {
             color: $brand_text_gray;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: 400;
             padding: 30px 0;
         }
@@ -32,8 +32,8 @@
     }
     #underlay_purple {
         position: absolute;
-        top: 120px;
-        left: -170px;
+        top: 93px;
+        left: -136px;
         z-index: -1;
     }
     .career_features {
@@ -43,7 +43,7 @@
         margin-top: 40px;        
         h4{
             padding: 20px;
-            font-size: 25px;
+            font-size: 20px;
             font-weight: 600;
             position: relative;
         }
@@ -59,7 +59,7 @@
         }
         p{
             padding: 30px;
-            font-size: 20px;
+            font-size: 15px;
         }
     }
     .feature_active {
@@ -98,20 +98,21 @@
     border-bottom-left-radius: 50% 120px;
     border-bottom-right-radius: 50% 120px;
     .course {
-        width: 480px;
+        width: calc((100% - 60px) / 3);
         position:relative;
         color: $brand_text_gray;
         img {
             border-radius: $bordi_stondati_sopra;
+            width: 100%;
         }
         h4{
             color: black;
-            font-size: 30px;
+            font-size: 22px;
             padding: 30px 0;
         }
         .course_info {
-            padding: 50px;
-            font-size: 20px;
+            padding: 40px;
+            font-size: 15px;
             img {
                 width: 50px;
                 border-radius: 50%;

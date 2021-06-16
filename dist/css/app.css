@@ -4,7 +4,7 @@
 }
 
 .my-container {
-  width: 80%;
+  width: 65%;
   margin: auto;
 }
 
@@ -15,12 +15,12 @@ li {
 header {
   background-color: #e9e6e3;
   color: #3f3a64;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
 }
 header li {
   display: inline-block;
-  padding-left: 50px;
+  padding-left: 40px;
 }
 header a {
   text-decoration: none;
@@ -47,9 +47,10 @@ header #shopping_cart div {
 }
 header nav > div > i {
   margin: 30px;
-  font-size: 20px;
+  font-size: 10px;
   padding: 1px;
   border: 3px solid #3f3a64;
+  text-align: center;
   border-radius: 50%;
 }
 header #search {
@@ -69,23 +70,23 @@ header .jumbo {
 }
 header .jumbo #jumbo_text {
   width: 35%;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 header .jumbo #jumbo_text h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 800;
 }
 header .jumbo #jumbo_text p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #b6b8d1;
   padding: 30px 0;
 }
 header .jumbo #jumbo_text a {
-  font-size: 17px;
+  font-size: 15px;
   color: white;
   font-weight: 500;
-  padding: 20px 50px;
+  padding: 15px 25px;
   border-radius: 5px;
   background-color: #20ad96;
   background-color: #20ad96;
@@ -104,7 +105,7 @@ header #jumbo_overlay img {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 550px;
+  height: 450px;
   transform: rotateX(180deg);
   z-index: 0;
 }
@@ -116,9 +117,9 @@ header #jumbo_overlay img {
 }
 #intro h2 {
   color: #3f3a64;
-  font-size: 60px;
+  font-size: 3.5rem;
   font-weight: 700;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 #intro h2 span {
   color: #20ad96;
@@ -139,7 +140,7 @@ header #jumbo_overlay img {
 }
 #intro .info_card p {
   color: #959999;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   padding: 30px 0;
 }
@@ -154,9 +155,9 @@ header #jumbo_overlay img {
 }
 #career h2 {
   color: #3f3a64;
-  font-size: 60px;
+  font-size: 3.5rem;
   font-weight: 700;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 #career h2 span {
   color: #20ad96;
@@ -176,8 +177,8 @@ header #jumbo_overlay img {
 }
 #career #underlay_purple {
   position: absolute;
-  top: 120px;
-  left: -170px;
+  top: 93px;
+  left: -136px;
   z-index: -1;
 }
 #career .career_features {
@@ -188,7 +189,7 @@ header #jumbo_overlay img {
 }
 #career .career_features h4 {
   padding: 20px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   position: relative;
 }
@@ -204,7 +205,7 @@ header #jumbo_overlay img {
 }
 #career .career_features p {
   padding: 30px;
-  font-size: 20px;
+  font-size: 15px;
 }
 #career .feature_active {
   border-radius: 10px 10px 0 0;
@@ -226,9 +227,9 @@ header #jumbo_overlay img {
 }
 #numbers h2 {
   color: #3f3a64;
-  font-size: 60px;
+  font-size: 3.5rem;
   font-weight: 700;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 #numbers h2 span {
   color: #20ad96;
@@ -258,9 +259,9 @@ header #jumbo_overlay img {
 }
 #courses h2 {
   color: #3f3a64;
-  font-size: 60px;
+  font-size: 3.5rem;
   font-weight: 700;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 #courses h2 span {
   color: #20ad96;
@@ -273,21 +274,22 @@ header #jumbo_overlay img {
   font-weight: 400;
 }
 #courses .course {
-  width: 480px;
+  width: calc((100% - 60px) / 3);
   position: relative;
   color: #959999;
 }
 #courses .course img {
   border-radius: 10px 10px 0 0;
+  width: 100%;
 }
 #courses .course h4 {
   color: black;
-  font-size: 30px;
+  font-size: 22px;
   padding: 30px 0;
 }
 #courses .course .course_info {
-  padding: 50px;
-  font-size: 20px;
+  padding: 40px;
+  font-size: 15px;
 }
 #courses .course .course_info img {
   width: 50px;
@@ -312,10 +314,10 @@ header #jumbo_overlay img {
   padding: 10px 0;
 }
 #courses a {
-  font-size: 17px;
+  font-size: 15px;
   color: white;
   font-weight: 500;
-  padding: 20px 50px;
+  padding: 15px 25px;
   border-radius: 5px;
   background-color: #20ad96;
 }
