@@ -1,0 +1,12 @@
+#sidetools {
+    @include card_shadow;
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    top: 200px;
+    a {
+        color: black;
+        margin-bottom: 20px;
+    }
+}

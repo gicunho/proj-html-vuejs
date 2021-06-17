@@ -92,7 +92,7 @@ header .jumbo #jumbo_text a {
   background-color: #20ad96;
 }
 header .jumbo #jumbo_text a:hover {
-  background-color: red;
+  background-color: #3f3a64;
   text-decoration: none;
 }
 header .jumbo #hero_img {
@@ -147,6 +147,12 @@ header #jumbo_overlay img {
 #intro .info_card a {
   color: #9693aa;
   font-weight: 600;
+}
+#intro .info_card a:hover {
+  background-color: #f8f8f8;
+  color: #20ad96;
+  padding: 10px 60px;
+  border-radius: 10px;
 }
 
 /* Career Section */
@@ -313,6 +319,10 @@ header #jumbo_overlay img {
   text-align: center;
   padding: 10px 0;
 }
+#courses:hover {
+  background-color: white;
+  box-shadow: rgba(142, 149, 155, 0.2) 0px 8px 24px 8px;
+}
 #courses a {
   font-size: 15px;
   color: white;
@@ -323,7 +333,7 @@ header #jumbo_overlay img {
   padding: 10px 50px;
 }
 #courses a:hover {
-  background-color: red;
+  background-color: #3f3a64;
   text-decoration: none;
 }
 
@@ -371,7 +381,7 @@ header #jumbo_overlay img {
   background-color: #20ad96;
 }
 #register a:hover {
-  background-color: red;
+  background-color: #3f3a64;
   text-decoration: none;
 }
 #register #register_underlay {
@@ -446,7 +456,7 @@ header #jumbo_overlay img {
   background-color: #20ad96;
 }
 #mobile_app #mobile_text a:hover {
-  background-color: red;
+  background-color: #3f3a64;
   text-decoration: none;
 }
 #mobile_app #mobile_text p {
@@ -511,8 +521,13 @@ header #jumbo_overlay img {
   min-width: 150px;
 }
 #events .event a:hover {
-  background-color: red;
+  background-color: #3f3a64;
   text-decoration: none;
+}
+#events .event:hover {
+  box-shadow: rgba(142, 149, 155, 0.2) 0px 8px 24px 8px;
+  background-color: white;
+  border-left: 3px solid #20ad96;
 }
 
 /* Testimonials */
@@ -623,7 +638,7 @@ header #jumbo_overlay img {
   padding: 15px 50px;
 }
 #get_started a:hover {
-  background-color: red;
+  background-color: #3f3a64;
   text-decoration: none;
 }
 #get_started #get_started_circle {
@@ -681,4 +696,17 @@ footer #info #explore ul {
 footer #credits {
   font-size: 15px;
   font-weight: 500;
+}
+
+#sidetools {
+  box-shadow: rgba(142, 149, 155, 0.2) 0px 8px 24px 8px;
+  background-color: white;
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  top: 200px;
+}
+#sidetools a {
+  color: black;
+  margin-bottom: 20px;
 }
