@@ -645,3 +645,40 @@ header #jumbo_overlay img {
   right: 0;
   bottom: -50px;
 }
+
+footer {
+  padding-top: 100px;
+  color: #959999;
+  line-height: 35px;
+}
+footer h5 {
+  color: black;
+}
+footer ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+footer #socials li {
+  display: inline-block;
+}
+footer #socials li a {
+  color: #959999;
+  font-size: 30px;
+  padding-right: 40px;
+}
+footer #info li {
+  padding-right: 100px;
+}
+footer #info li a {
+  color: #959999;
+}
+footer #info #explore {
+  padding-right: 200px;
+}
+footer #info #explore ul {
+  max-height: 130px;
+}
+footer #credits {
+  font-size: 15px;
+  font-weight: 500;
+}

@@ -273,7 +273,44 @@
 
     <!-- Site Footer -->
         <footer>
-
+          <div class="my-container d-flex justify-content-between">
+            <div id="address">
+              <h5>Address</h5>
+              <address>
+                <div>382 NE 191st # 87394 Miai, FL 33179-3899</div> 
+                <div id="phone">
+                  +1(305) 547-9909 (9am - 5pm EST, Monday - Friday)
+                </div>
+                <div id="mail">support#maxcoach.com</div>
+              </address>
+              <div id="socials">
+                <ul>
+                  <li v-for="social in socials">
+                    <a :href="social.link">
+                      <i  :class="social.icon"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="info" class="d-flex">
+              <div id="explore">
+                <h5>Explore</h5>
+                <ul class="d-flex flex-column flex-wrap">
+                  <li v-for="explore in explores"><a href="#">{{explore}}</a></li>
+                </ul>
+              </div>
+              <div id="informations">
+                <h5>Information</h5>
+                <ul>
+                  <li v-for="info in informations"><a href="#">{{info}}</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="credits" class="text-center py-5">
+            © 2020 Maxcoach. All Rights Reserved
+          </div>
         </footer>
     <!-- /Site Footer -->
       </div>

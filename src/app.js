@@ -98,7 +98,31 @@ const myapp = new Vue({
             new testimonial ('Mina Hollace', 'Freelancer', './dist/img/testimonial-avata-02.jpg', 'I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.'),
             new testimonial ('Madley Pondor', 'IT Specialist', './dist/img/testimonial-avata-04.jpg', 'MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.'),
             new testimonial ('Luvic Dubble', 'Private Tutor', './dist/img/testimonial-avata-01.jpg', 'I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation.')
-        ]
+        ],
+        socials: [
+            {
+                name: 'Facebook',
+                icon: 'fab fa-facebook-square',
+                link: 'https://www.facebook.com/'
+            },
+            {
+                name: 'Twitter',
+                icon: 'fab fa-twitter',
+                link: 'https://www.twitter.com/'
+            },
+            {
+                name: 'Instagram',
+                icon: 'fab fa-instagram',
+                link: 'https://www.instagram.com/'
+            },
+            {
+                name: 'LinkedIn',
+                icon: 'fab fa-linkedin',
+                link: 'https://www.linkedin.com/'
+            }
+        ],
+        explores: ['Start here', 'Blog', 'About us', 'Success story', 'Courses', 'Contact us'],
+        informations: ['Membership', 'Purchase guide', 'Privacy policy', 'Terms of services']
     },
     methods: {
 

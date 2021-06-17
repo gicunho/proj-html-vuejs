@@ -1,0 +1,38 @@
+footer {
+    padding-top: 100px;
+    color: $brand_text_gray;
+    line-height: 35px;
+    h5 {
+        color: black;
+    }
+    ul {
+        padding-inline-start: 0;
+    }
+    #socials li{
+        display: inline-block;
+        a{
+            color: $brand_text_gray;
+            font-size: 30px;
+            padding-right: 40px;
+        }
+    }
+    #info {
+        li {
+            padding-right: 100px;
+            a{
+                color: $brand_text_gray;
+            }
+        }
+        #explore {
+            padding-right: 200px;
+
+            ul {
+                max-height: 130px;
+            }
+        }
+    }
+    #credits {
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
