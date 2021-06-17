@@ -92,7 +92,7 @@
           <section id="career" class="d-flex my-container">
             <div class="position-relative">
               <img id="underlay_purple"src="./dist/img/underlay-shape-lilla.svg" alt="macchia viola">
-              <img src="/dist/img/about-us-03-image-01.png" alt="ragazzo esulta al pc">
+              <img src="./dist/img/about-us-03-image-01.png" alt="ragazzo esulta al pc">
             </div>
             <div>
               <h3>dream with <strong>maxcoach</strong></h3>
@@ -181,10 +181,10 @@
                 <a href="#">Get started for free</a>
               </div>
               <div class="position-relative">
-                <img src="/dist/img/home-5-image-01.png" alt="ragazzo scrive codice pc">
+                <img src="./dist/img/home-5-image-01.png" alt="ragazzo scrive codice pc">
                 <div id="register_underlay">
-                  <img id="" width="450px" src="/dist/img/underlay-shape-grey.svg" alt="">
-                  <img src="/dist/img/maxcoach-shape-05.png" alt="">
+                  <img id="" width="450px" src="./dist/img/underlay-shape-grey.svg" alt="">
+                  <img src="./dist/img/maxcoach-shape-05.png" alt="">
                 </div>
 
               </div>
@@ -194,10 +194,10 @@
           <!-- Mobile App -->
           <section id="mobile_app" class="my-container">
             <div class="position-relative text-center">
-              <img src="/dist/img/home-5-image-02.png" alt="">
-              <img id="mobile_shape_dots" src="/dist/img/maxcoach-shape-07.png" alt="">
-              <img id="mobile_underlay" src="/dist/img/underlay-shape-grey.svg" alt="">
-              <img id="mobile_shape_raws" src="/dist/img/maxcoach-shape-01.png" alt="">
+              <img src="./dist/img/home-5-image-02.png" alt="">
+              <img id="mobile_shape_dots" src="./dist/img/maxcoach-shape-07.png" alt="">
+              <img id="mobile_underlay" src="./dist/img/underlay-shape-grey.svg" alt="">
+              <img id="mobile_shape_raws" src="./dist/img/maxcoach-shape-01.png" alt="">
               <div id="mobile_circle"></div>
             </div>
             <div id="mobile_text">
@@ -226,9 +226,31 @@
                 </div>
               </div>
             </div>
-
           </section>
           <!-- /Events -->
+
+
+
+          <!-- Testimonials -->
+          <section id="testimonials">
+            <div id="all_events">
+              Excited about our event? 
+              <a href="#">View all events <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="my-container">
+              <h3>people are praising maxcoach</h3>
+              <h2>What make they <span>love us?</span></h2>
+              <div class="testimonials d-flex justify-content-between">
+                <div class="testimonial position-relative" v-for="testimonial in testimonials">
+                  <div class="testimonial_text">{{testimonial.text}}</div>
+                  <div class="testimonial_name">{{testimonial.name}}</div>
+                  <div class="testimonial_profession py-3">/ {{testimonial.profession}}</div>
+                  <img :src="testimonial.picture" alt="">
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /Testimonials -->
         </main>
     <!-- Site Main Content -->
 

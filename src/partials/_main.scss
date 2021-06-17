@@ -37,7 +37,7 @@
         z-index: -1;
     }
     .career_features {
-        box-shadow: rgba(41, 46, 51, 0.2) 0px 8px 24px 8px;
+        @include card_shadow;
         color: #696969;
         border-radius: 10px;
         margin-top: 40px;        
@@ -208,12 +208,13 @@
 /* Events */
 #events{
     @include section;
+    padding: 0;
     .event {
         h4 {
             @include card_title;
             padding: 15px 0;
         }
-        background-color: $brand_events_bg;
+        background-color: $brand_gray_bg;
         width: 49%;
         padding: 20px;
         margin-bottom: 20px;
@@ -235,6 +236,64 @@
             @include button_sm;
             padding: 5px 30px;
             min-width: 150px;
+        }
+    }
+}
+
+
+
+/* Testimonials */
+#testimonials {
+    @include section;
+    text-align: center;
+    padding-top: 0;
+    background-color: $brand_gray_bg;
+    border-top-right-radius: -100px -500px;
+    #all_events{
+        font-size: 18px;
+        padding-top: 30px;
+        text-align: center;
+        color: $brand_text_gray;
+        font-weight: 500;
+        a {
+            font-weight: 600;
+            color: $brand_text_green;
+            border-bottom: 0.5px solid $brand_text_gray;
+        }
+        width: 100%;
+        height: 250px;
+        border-bottom-right-radius: 50% 250px;
+        background-color: white;
+        margin-bottom: 100px;
+    
+    }
+    .testimonial {
+        width: 32%;
+        background-color: white;
+        border-radius: 10px;
+        padding: 100px 20px 30px 20px;
+        margin-top: 100px;
+        font-size: 17px;
+        font-weight: 500;
+        @include card_shadow;
+        img {
+            position: absolute;
+            top: -65px;
+            left: 50%;
+            height: 130px;
+            transform: translate(-50%);
+            border-radius: 50%;
+        }
+        .testimonial_text {
+            color: $brand_text_purple;
+            padding-bottom: 20px;
+        }
+        .testimonial_name {
+            text-transform: uppercase;
+        }
+        .testimonial_profession {
+            color: $brand_text_gray;
+             font-size: 14px;
         }
     }
 }

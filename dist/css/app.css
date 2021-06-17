@@ -182,7 +182,7 @@ header #jumbo_overlay img {
   z-index: -1;
 }
 #career .career_features {
-  box-shadow: rgba(41, 46, 51, 0.2) 0px 8px 24px 8px;
+  box-shadow: rgba(142, 149, 155, 0.2) 0px 8px 24px 8px;
   color: #696969;
   border-radius: 10px;
   margin-top: 40px;
@@ -455,6 +455,7 @@ header #jumbo_overlay img {
 /* Events */
 #events {
   padding: 100px 0;
+  padding: 0;
 }
 #events h2 {
   color: #3f3a64;
@@ -511,4 +512,75 @@ header #jumbo_overlay img {
 #events .event a:hover {
   background-color: red;
   text-decoration: none;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 100px 0;
+  text-align: center;
+  padding-top: 0;
+  background-color: #f8f8f8;
+  border-top-right-radius: -100px -500px;
+}
+#testimonials h2 {
+  color: #3f3a64;
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding: 30px 0;
+}
+#testimonials h2 span {
+  color: #20ad96;
+  font-weight: 400;
+}
+#testimonials h3 {
+  text-transform: uppercase;
+  color: #3f3a64;
+  font-size: 18px;
+  font-weight: 400;
+}
+#testimonials #all_events {
+  font-size: 18px;
+  padding-top: 30px;
+  text-align: center;
+  color: #959999;
+  font-weight: 500;
+  width: 100%;
+  height: 250px;
+  border-bottom-right-radius: 50% 250px;
+  background-color: white;
+  margin-bottom: 100px;
+}
+#testimonials #all_events a {
+  font-weight: 600;
+  color: #20ad96;
+  border-bottom: 0.5px solid #959999;
+}
+#testimonials .testimonial {
+  width: 32%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 100px 20px 30px 20px;
+  margin-top: 100px;
+  font-size: 17px;
+  font-weight: 500;
+  box-shadow: rgba(142, 149, 155, 0.2) 0px 8px 24px 8px;
+}
+#testimonials .testimonial img {
+  position: absolute;
+  top: -65px;
+  left: 50%;
+  height: 130px;
+  transform: translate(-50%);
+  border-radius: 50%;
+}
+#testimonials .testimonial .testimonial_text {
+  color: #3f3a64;
+  padding-bottom: 20px;
+}
+#testimonials .testimonial .testimonial_name {
+  text-transform: uppercase;
+}
+#testimonials .testimonial .testimonial_profession {
+  color: #959999;
+  font-size: 14px;
 }
