@@ -584,3 +584,11 @@ header #jumbo_overlay img {
   color: #959999;
   font-size: 14px;
 }
+#testimonials #dots {
+  font-size: 10px;
+  color: #959999;
+}
+#testimonials #dots i:nth-child(1) {
+  font-size: 15px;
+  color: #3f3a64;
+}

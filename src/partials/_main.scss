@@ -296,4 +296,12 @@
              font-size: 14px;
         }
     }
+    #dots {
+        font-size: 10px;
+        color: $brand_text_gray;
+        i:nth-child(1) {
+            font-size: 15px;
+            color: $brand_text_purple;
+        }
+    }
 }
