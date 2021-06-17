@@ -320,6 +320,7 @@ header #jumbo_overlay img {
   padding: 15px 25px;
   border-radius: 5px;
   background-color: #20ad96;
+  padding: 10px 50px;
 }
 #courses a:hover {
   background-color: red;
@@ -428,8 +429,8 @@ header #jumbo_overlay img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 8px solid #ecc5ab;
   position: absolute;
+  border: 8px solid #ecc5ab;
   right: 0;
   top: 50px;
 }
@@ -591,4 +592,56 @@ header #jumbo_overlay img {
 #testimonials #dots i:nth-child(1) {
   font-size: 15px;
   color: #3f3a64;
+}
+
+/* Get Started */
+#get_started {
+  padding-bottom: 100px;
+  background-color: #f8f8f8;
+  font-weight: 600;
+  color: #3f3a64;
+}
+#get_started h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+#get_started h4 span {
+  color: #20ad96;
+  font-weight: 400;
+}
+#get_started h3 {
+  font-size: 35px;
+  padding-bottom: 50px;
+}
+#get_started a {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #20ad96;
+  padding: 15px 50px;
+}
+#get_started a:hover {
+  background-color: red;
+  text-decoration: none;
+}
+#get_started #get_started_circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 8px solid #e6dcd2;
+}
+#get_started #get_started_shape_raws {
+  position: absolute;
+  left: 20px;
+  top: 70px;
+}
+#get_started #get_started_shape_circle {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
 }

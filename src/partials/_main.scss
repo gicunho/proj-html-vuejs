@@ -137,6 +137,7 @@
     }
     a {
         @include button_sm;
+        padding: 10px 50px;
     }
 }
 
@@ -185,11 +186,8 @@
 
     }
     #mobile_circle{
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
+        @include circle;
         border: 8px solid #ecc5ab;
-        position: absolute;
         right: 0;
         top: 50px;
     }
@@ -303,5 +301,45 @@
             font-size: 15px;
             color: $brand_text_purple;
         }
+    }
+}
+
+/* Get Started */
+#get_started {
+    padding-bottom: 100px;
+    background-color: $brand_gray_bg;
+    font-weight: 600;
+    color: $brand_text_purple;
+    h4{
+        font-size: 25px;
+        font-weight: 600;
+        span{
+            color: $brand_text_green;
+            font-weight: 400;
+        }
+    }
+    h3 {
+        font-size: 35px;
+        padding-bottom: 50px;
+    }
+    a {
+        @include button_sm;
+        padding: 15px 50px;
+    }
+    #get_started_circle {
+        @include circle;
+        top: 0;
+        left: 0;
+        border: 8px solid #e6dcd2;
+    }
+    #get_started_shape_raws {
+        position: absolute;
+        left: 20px;
+        top: 70px;
+    }
+    #get_started_shape_circle {
+        position: absolute;
+        right: 0;
+        bottom: -50px;
     }
 }
